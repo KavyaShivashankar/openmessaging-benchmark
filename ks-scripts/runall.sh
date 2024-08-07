@@ -1,0 +1,11 @@
+#. ./run.sh  0  > /tmp/omb_runs/default.log
+#. ./run.sh .25  > /tmp/omb_runs/0.5ms.log
+#. ./run.sh .5  > /tmp/omb_runs/1ms.log
+. ./run.sh 1     > /tmp/omb_runs/2ms.log
+. ./run.sh 2.5   > /tmp/omb_runs/5ms.log
+. ./run.sh 5     > /tmp/omb_runs/10ms.log
+. ./run.sh 10    > /tmp/omb_runs/20ms.log
+. ./run.sh 25    > /tmp/omb_runs/50ms.log
+. ./run.sh 50    > /tmp/omb_runs/100ms.log
+. ./run.sh 100   > /tmp/omb_runs/200ms.log
+. ./run.sh 200   > /tmp/omb_runs/400ms.log
