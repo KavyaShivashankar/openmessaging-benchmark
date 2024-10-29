@@ -9,7 +9,7 @@ BRKR1="35.165.40.94"
 
 echo "Setting  omb benchmark worker service on $WRKR1, $WRKR2, $WRKR3, $WRKR4"
 
-ssh -i ~/.ssh/redpanda_aws ubuntu@${BRKR1} -t "sudo rpk set cluster config set node_status_interval 500"
+ssh -i ~/.ssh/redpanda_aws ubuntu@${BRKR1} -t "sudo rpk cluster config set node_status_interval 500"
 
 echo "Done"
 echo ""
